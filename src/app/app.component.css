@@ -1,0 +1,12 @@
+.input-basico {
+    display: block; /* Ocupa todo el ancho */
+    width: 100%; 
+    padding: 0.375rem 0.75rem; /* Relleno similar a Bootstrap */
+    margin-bottom: 0.5rem; /* Margen para separar */
+    line-height: 1.5;
+    color: #495057; /* Color de texto legible */
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da; /* Borde estándar */
+    border-radius: 0.25rem; /* Bordes redondeados */
+}
