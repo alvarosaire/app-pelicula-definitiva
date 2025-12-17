@@ -11,8 +11,10 @@ import { Pelicula } from '../Interfaces/pelicula';
 export class PeliculaService {
 
   
-  private apiBaseUrl: string = "http://www.apipeliculas.somee.com/api/Pelicula/"
+  //private apiBaseUrl: string = "http://www.apipeliculas.somee.com/api/Pelicula/"
 
+  private apiBaseUrl: string = `${environment.endPoint}Pelicula/`
+  
   private http = inject(HttpClient);
 
   constructor() { }
